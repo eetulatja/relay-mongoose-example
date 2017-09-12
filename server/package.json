@@ -1,0 +1,27 @@
+{
+  "name": "relay-mongoose-example",
+  "version": "0.0.1",
+  "description": "Node.js server for Relay with Mongoose example",
+  "main": "index.js",
+  "repository": "git@github.com:eetulatja/relay-mongoose-example.git",
+  "author": "Eetu Latja <eetu.latj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "graphql": "^0.11.3",
+    "graphql-compose": "^2.9.0",
+    "graphql-compose-mongoose": "^1.9.0",
+    "koa": "^2.3.0",
+    "koa-graphql": "^0.7.3",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "nodemon": "^1.12.0"
+  }
+}
